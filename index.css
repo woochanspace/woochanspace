@@ -2,17 +2,29 @@
   width: 100vw;
   height: 100vw;
 }
-
+.login {
+  align-items: center;
+}
+.logo > h1 > a {
+  text-decoration: none;
+}
 .flexbox {
   display: flex;
   gap: 50px;
+  align-items: center;
+}
+li > a {
+  text-decoration: none;
+  color: black;
 }
 .flex-sb {
   justify-content: space-between;
+  margin-top: 10px;
 }
 
 .logo {
   font-size: 50px;
+  margin-left: 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -29,33 +41,34 @@
   margin-right: 50px;
 }
 .body {
-  background-color: red;
   width: 100vw;
   height: 500px;
 }
 .mainimg {
-  width: 90%;
-  height: 225px;
-
-  margin-left: 5%;
-  margin-right: 5%;
+  display: flex;
+  height: 440px;
+  justify-content: center;
+}
+.mainimg > img {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://www.kfckorea.com/nas/banner/2023/11/21/zhmvaPyZyDnk.png);
 }
 .flexbox3 {
   display: flex;
+}
+.otherimg {
+  width: 100%;
+  display: flex;
   justify-content: center;
-  gap: 155px;
 }
 .otherimg > img {
-  width: 300px;
-  height: 200px;
-  background-color: green;
+  width: 30rem;
   margin-top: 30px;
   border-radius: 15px;
+  object-fit: cover;
 }
-.footer {
-  background-color: gray;
-  height: 150px;
-}
+
 .flexbox4 {
   display: flex;
   justify-content: center;
@@ -65,10 +78,18 @@
   font-size: 10px;
 }
 .info2 {
+  margin-top: 30px;
   font-size: 10px;
+  text-align: center;
 }
 .info2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.menu_h1 {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-weight: 600;
 }
