@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    
+  </head>
+  <body>
+    <div id="container">
+      <div class="header">
+        <div class="flexbox flex-sb">
+          <div class="logo">
+            <h1>
+              <a href="#">KFC</a>
+            </h1>
+          </div>
+          <div class="login">
+            <ul class="flexbox">
+              <li>
+                <a href="#">로그인</a>
+              </li>
+              <li>
+                <a href="#">회원가입</a>
+              </li>
+              <li>
+                <a href="#">고객센터</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="popup">
+          <ul class="flexbox2">
+            <li>&nbsp;&nbsp;DELIVERY&nbsp;&nbsp;</li>
+            <li>&nbsp;&nbsp;STORE&nbsp;&nbsp;</li>
+            <li>&nbsp;&nbsp;EVENT&nbsp;&nbsp;</li>
+            <li>&nbsp;&nbsp;YOUTUBE&nbsp;&nbsp;</li>
+          </ul>
+        </div>
+        <div class="flexbox3">
+          <div class="loginimg">
+            <img src="./login.png" alt="login" />
+          </div>
+        </div>
+        <div class="loginform">
+          <table>
+            <caption>로그인</caption>
+            <tbody>
+                <tr>
+                    <td>아이디</td>
+                    <td>
+                        <input type="text" onclick="idchk()" readonly required>
+                        <input type="button" value="아이디체크" onclick="idCheck()">
+                    </td>
+                </tr>
+                <tr>
+                    <td>비밀번호</td>
+                    <td>
+                        <input type="password" required>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td style="text-align: right;">
+                        <input type="checkbox" onclick="save()">
+                    </td>
+                    <td>아이디저장</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" onclick="login()" value="로그인" required >
+                    </td>
+                    
+                </tr>
+            </tfoot>
+          </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

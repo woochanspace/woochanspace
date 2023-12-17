@@ -1,0 +1,15 @@
+.flexbox3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loginimg {
+  border-radius: 15px;
+  width: 800px;
+  height: 200px;
+  border-radius: 15px;
+}
+.loginform {
+  display: flex;
+  justify-content: center;
+}
